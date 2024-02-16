@@ -1,0 +1,18 @@
+main>h1{
+    color: blue;
+}
+
+main>h1{
+    background-color: goldenrod;
+}
+
+main>div{
+    background-color: goldenrod;
+}
+
+ul>.amazonOrange{
+    background-color: orange;
+}
+ol{
+    color: red;
+}

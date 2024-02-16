@@ -1,0 +1,51 @@
+body{
+    width: 50rem;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #adadad;
+    height: 150px;
+    padding: 10px;
+}
+header>p{
+    padding-top: 50px ;
+}
+
+main{
+    border: 5px solid #f3f1f1;
+    background-color: #f3f1f1;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+}
+
+.promo1, .promo2{
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.promo1>h3{
+    background-color: #414141;
+    height: 70px;
+    width: 120px;
+    text-align: center;
+}
+
+.promo2{
+    background-color: #706e6e;
+    height: 70px;
+    width: 120px;
+}
+
+footer{
+    background-color: #adadad;
+    height: 40px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.pe{
+
+}

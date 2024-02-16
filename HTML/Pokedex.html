@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poxedex</title>
+    <link href="../Css/Poxedex.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+      <form action="Pokedex.html" method="get">
+          <fieldset>
+              <legend>Pokedex</legend>
+
+              <input type="radio" id="buttonOne" name="radio">
+              <label for="buttonOne">Generation I</label>
+
+              <input type="radio" id="buttonTwo" name="radio">
+              <label for="buttonTwo">Generation II</label>
+
+              <input type="radio" id="buttonThree" name="radio">
+              <label for="buttonThree">Generation III</label>
+
+              <br>
+
+              <label for="name">Name  </label>
+              <input type="text" id="name" name="full_name">
+                <br>
+              <label for="number">Index </label>
+              <input type="number" id="number">
+
+              <br>
+
+              <label for="choice">Type 1</label>
+              <select id="choice" name="choice">
+                  <option value="Fire">Fire</option>
+                  <option value="Grass">Grass</option>
+                  <option value="Water">Water</option>
+              </select>
+
+              <br>
+
+              <label for="choice1">Type 2</label>
+              <select id="choice1" name="choice">
+                  <option value="Fire">--</option>
+                  <option value="Fire">Fire</option>
+                  <option value="Grass">Grass</option>
+                  <option value="Water">Water</option>
+              </select>
+
+              <br>
+
+              <button>Previous</button>
+              <button>Next</button>
+          </fieldset>
+
+      </form>
+  </div>
+
+    <div>
+        <form action="Pokedex.html" method="get">
+            <fieldset>
+                <legend>Evolves</legend>
+                <label for="name1">From  </label>
+                <input type="text" id="name1" name="full_name">
+                <br>
+                <label for="number2">Into  </label>
+                <input type="number" id="number2">
+            </fieldset>
+            <button>Add to Pokedex</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, serif ;
+}
+form{
+    width: 550px;
+}
+
+form>fieldset>label{
+    padding-right: 50px;
+}
+
+#choice, #choice1, #name, #name1, #number, #number2{
+    display: inline-block;
+    width: 400px;
+    align-self: end;
+}
+

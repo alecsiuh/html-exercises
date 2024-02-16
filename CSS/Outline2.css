@@ -1,0 +1,26 @@
+section,article{
+    padding: 5px;
+    margin: 5px;
+}
+
+article{
+    background: blue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+article > section {
+    background-color: yellow;
+
+}
+
+article > section > section {
+    background-color: yellowgreen;
+    width: 150px;
+}
+
+h4{
+    display: flex;
+    flex-direction: row;
+}

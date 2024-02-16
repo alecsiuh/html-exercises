@@ -1,0 +1,15 @@
+body{
+    font-family: verdana, helvetica, arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    font-size: 2.5rem;
+}
+
+figure {
+    display: inline-block;
+    border: 4px solid gray;
+    margin: 8px 4px ;
+}

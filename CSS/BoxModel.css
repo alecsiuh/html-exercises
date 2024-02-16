@@ -1,0 +1,19 @@
+article{
+    border-spacing: 20px;
+}
+
+.first{
+    border: 5px solid darkred;
+    padding: 5px;
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+.second{
+    border: 5px solid darkgreen;
+    padding: 5px;
+    margin: 20px;
+    width: 400px;
+    height: 250px;
+}

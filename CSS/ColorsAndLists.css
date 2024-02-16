@@ -1,0 +1,44 @@
+body{
+    background-color: lightskyblue;
+}
+h1{
+    color: darkblue;
+    text-shadow: 0 4px 10px white;
+}
+
+h2{
+    color:red;
+    opacity: 50%;
+}
+
+h3{
+    color: darkblue;
+}
+
+ul{
+    list-style-image: url("../Icons/bullet_red.png");
+}
+
+ul>li:nth-child(1){
+    color: red;
+}
+
+ul>li:nth-child(2){
+    color: green;
+}
+
+ul>li:nth-child(3){
+    color: blue;
+}
+
+ul>li:nth-child(4){
+    color: cyan;
+}
+
+ul>li:nth-child(5){
+    color: magenta;
+}
+
+ul>li:nth-child(6){
+    color: yellow;
+}

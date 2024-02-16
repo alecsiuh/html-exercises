@@ -1,0 +1,29 @@
+caption{
+    font-size: 35px;
+}
+
+tr>th{
+    font-size: 20px;
+}
+
+tr>td{
+    font-family: verdana, serif;
+    font-weight: bold;
+}
+
+tr:nth-child(odd){
+    background-color: aqua;
+}
+table, tr, td{
+    border-spacing: 0;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+tr{
+    text-align: center;
+}
+
+tr>th{
+    border-top: 1px solid black;
+}
